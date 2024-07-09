@@ -9,4 +9,6 @@ import io.cucumber.testng.CucumberOptions;
                 "html:target/cucumber-html-report.html"
         }
 )
-public class Proyecto extends AbstractTestNGCucumberTests {}
+public class Proyecto extends AbstractTestNGCucumberTests {
+        System.exit(1);
+}
