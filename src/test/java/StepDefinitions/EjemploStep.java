@@ -8,8 +8,8 @@ public class EjemploStep {
 
     @Given("que ingrese en saucedemo.com")
     public void IngresoSaucedemo(){
+        System.exit(1);
         System.out.println("Ingresé en Saucedemo.com");
-        Assert.fail("falló la prueba");
     }
 
     @Then("ingreso un usuario en la pantalla de login")
